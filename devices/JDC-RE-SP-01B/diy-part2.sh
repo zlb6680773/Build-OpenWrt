@@ -25,6 +25,8 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon/' feeds/luci/collections/luci/Ma
 # git clone https://github.com/destan19/OpenAppFilter package/OpenAppFilter
 git clone https://github.com/MapesxGM/luci-app-tencentddns package/luci-app-tencentddns
 git clone https://github.com/jerrykuku/luci-app-argon-config package/luci-app-argon-config
+git clone git://github.com/jerrykuku/luci-app-ttnode package/luci-app-ttnode
+git clone git://github.com/gdck/luci-app-cupsd2.3.0 package/luci-app-cupsd2.3.0
 
 # Modify the number of connections
 cat >> package/base-files/files/etc/sysctl.conf <<EOF
