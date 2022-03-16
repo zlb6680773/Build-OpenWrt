@@ -21,7 +21,7 @@ on:
 
 env:
   REPO_URL: https://github.com/openwrt/openwrt.git
-  REPO_BRANCH: openwrt-21.04
+  REPO_BRANCH: lede-17.01
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: JDC-RE-SP-01B1.config
   DIY_P1_SH: devices/JDC-RE-SP-01B1/diy-part1.sh
